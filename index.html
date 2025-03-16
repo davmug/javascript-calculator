@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calcolatrice Web jQuery</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="calculator">
+      <div id="history"></div>
+      <div id="display">0</div>
+      <div class="row justify-content-flex-end">
+        <button id="clear" class="btn btn-calc btn-clear col-3 m-2 bg-danger text-light">AC</button>
+        <button id="delete" class="btn btn-calc btn-secondary col-3 m-2 text-light bg-secondary">DEL</button>
+      </div>
+      <div class="row">
+        <button id="seven" class="btn btn-calc number-btn col-3 bg-light text-dark">7</button>
+        <button id="eight" class="btn btn-calc number-btn col-3 bg-light text-dark">8</button>
+        <button id="nine" class="btn btn-calc number-btn col-3 bg-light text-dark">9</button>
+        <button id="divide" class="btn btn-calc btn-operator operator-btn col-3 bg-primary text-light">/</button>
+      </div>
+      <div class="row">
+        <button id="four" class="btn btn-calc number-btn col-3 bg-light text-dark">4</button>
+        <button id="five" class="btn btn-calc number-btn col-3 bg-light text-dark">5</button>
+        <button id="six" class="btn btn-calc number-btn col-3 bg-light text-dark">6</button>
+        <button id="multiply" class="btn btn-calc btn-operator operator-btn col-3 bg-warning">*</button>
+      </div>
+      <div class="row">
+        <button id="one" class="btn btn-calc number-btn col-3 bg-light text-dark">1</button>
+        <button id="two" class="btn btn-calc number-btn col-3 bg-light text-dark">2</button>
+        <button id="three" class="btn btn-calc number-btn col-3 bg-light text-dark">3</button>
+        <button id="subtract" class="btn btn-calc btn-operator operator-btn col-3 bg-danger">-</button>
+      </div>
+      <div class="row">
+        <button id="zero" class="btn btn-calc btn-zero number-btn col-6 bg-light text-dark">0</button>
+        <button id="decimal" class="btn btn-calc col-3 text-light bg-secondary">.</button>
+        <button id="add" class="btn btn-calc btn-operator operator-btn col-3 bg-info">+</button>
+      </div>
+      <div class="row">
+        <button id="equals" class="btn btn-calc btn-equals col-3 bg-success text-light">=</button>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
